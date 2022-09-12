@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+    <title>Hesap Makinesi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form action="sonuc.jsp" method="post">
+    <table width="40%" border="1">
+       <tr>
+        <td colspan="2">Basit Hesap Makinesi</td>
+       </tr>
+       
+       <tr>
+        <td>1. Sayı</td>
+        <td> 
+         <input type="text" name="sayi1"/>
+        </td>
+       </tr>
+       
+       <tr>
+        <td>İşlem</td>
+        <td>
+         <select name="islem">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+         
+         </select>
+        </td>
+       </tr>
+       
+       <tr>
+        <td>2. Sayı</td>
+        <td>
+        <input type="text" name="sayi2"/>
+        </td>
+       </tr>
+       
+       <tr>
+        <td>
+         <input type="submit" value="Hesapla"/>
+         <input type="reset" value="Temizle"/>
+        </td>
+      </tr>
+    </table>
+    </form>
+    
+</body>
+</html>
